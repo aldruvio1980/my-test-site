@@ -57,11 +57,13 @@ h2 { font-size: clamp(2rem, 4vw, 3rem); }
   backdrop-filter: blur(8px);
 }
 
-.header-inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.header-inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; width: 100%; padding-left: 0; }
+
+.brand { margin-left: 0; display: flex; }
 
 .brand-logo {
-  height: 130px;
-  width: 130px;
+  height: 390px;
+  width: 390px;
   aspect-ratio: 1 / 1;
   object-fit: contain;
   object-position: center;
