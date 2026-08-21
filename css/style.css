@@ -59,7 +59,15 @@ h2 { font-size: clamp(2rem, 4vw, 3rem); }
 
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
 
-.brand-logo { height: 56px; width: auto; border-radius: 6px; }
+.brand-logo {
+  height: 76px;
+  width: 76px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  border: 1px solid rgba(201, 163, 92, 0.4);
+}
 
 .main-nav { display: flex; gap: 2rem; }
 .main-nav a {
@@ -180,7 +188,15 @@ h2 { font-size: clamp(2rem, 4vw, 3rem); }
   gap: 2rem;
   align-items: start;
 }
-.footer-logo { height: 72px; width: auto; border-radius: 6px; }
+.footer-logo {
+  height: 110px;
+  width: 110px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  border: 1px solid rgba(201, 163, 92, 0.4);
+}
 .site-footer h3 {
   font-size: 1rem;
   text-transform: uppercase;
