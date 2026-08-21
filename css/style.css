@@ -292,4 +292,24 @@ h2 { font-size: clamp(2rem, 4vw, 3rem); }
   .section { padding: 4.5rem 0; }
   .lightbox-prev { left: 0.5rem; }
   .lightbox-next { right: 0.5rem; }
+
+  /* Minimal mobile header */
+  .site-header { padding: 0.4rem 0; }
+  .header-inner { width: auto; margin: 0 1rem; }
+  .brand-logo { height: 52px; }
+  .hero { min-height: 88vh; background-position: center 30%; }
+  .hero-content { padding: 0 1rem; }
+  h1 { font-size: 2.2rem; }
+  .lead { font-size: 0.95rem; }
+  .btn { padding: 0.75rem 1.8rem; }
+
+  /* Minimal footer */
+  .footer-logo { height: 120px; }
+  .site-footer { padding: 3rem 0 1.5rem; }
+  .footer-grid { grid-template-columns: 1fr; gap: 1.5rem; text-align: center; justify-items: center; }
+  .footer-bottom { margin-top: 2rem; }
+
+  /* Tighter cards */
+  .grid { gap: 1rem; }
+  .card figcaption { font-size: 0.95rem; padding: 0.7rem 0.75rem; }
 }
