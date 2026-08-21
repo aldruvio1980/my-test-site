@@ -62,15 +62,8 @@ h2 { font-size: clamp(2rem, 4vw, 3rem); }
 .brand { margin-left: 0; display: flex; }
 
 .brand-logo {
-  height: 390px;
-  width: 390px;
-  aspect-ratio: 1 / 1;
-  object-fit: contain;
-  object-position: center;
-  border-radius: 50%;
-  border: 1px solid rgba(201, 163, 92, 0.4);
-  background: #14120f;
-  padding: 10px;
+  height: 260px;
+  width: auto;
 }
 
 .main-nav { display: flex; gap: 2rem; }
@@ -193,15 +186,8 @@ h2 { font-size: clamp(2rem, 4vw, 3rem); }
   align-items: start;
 }
 .footer-logo {
-  height: 170px;
-  width: 170px;
-  aspect-ratio: 1 / 1;
-  object-fit: contain;
-  object-position: center;
-  border-radius: 50%;
-  border: 1px solid rgba(201, 163, 92, 0.4);
-  background: #14120f;
-  padding: 14px;
+  height: 300px;
+  width: auto;
 }
 .site-footer h3 {
   font-size: 1rem;
