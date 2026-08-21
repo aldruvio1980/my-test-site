@@ -62,7 +62,7 @@ h2 { font-size: clamp(2rem, 4vw, 3rem); }
 .brand { margin-left: 0; display: flex; }
 
 .brand-logo {
-  height: 1300px;
+  height: 320px;
   width: auto;
 }
 
@@ -186,7 +186,7 @@ h2 { font-size: clamp(2rem, 4vw, 3rem); }
   align-items: start;
 }
 .footer-logo {
-  height: 650px;
+  height: 360px;
   width: auto;
 }
 .site-footer h3 {
